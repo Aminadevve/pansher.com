@@ -19,3 +19,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
    }
 }
 ?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Добавить статью</title>
+</head>
+<body>
+    <h1>Добавить статью</h1>
+    <form method="post" action="/pages/add_article.php">
+        <label for="title">Заголовок:</label><br>
+        <input type="text" id="title" name="title"><br><br>
+
+        <label for="content">Содержание:</label><br>
+        <textarea id="content" name="content" rows="4" cols="50"></textarea><br><br>
+
+        <input type="submit" value="Сохранить">
+    </form>
+</body>
+</html>
