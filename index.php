@@ -9,6 +9,8 @@
     <?php include 'includes/header.php'; ?>
     <main>
         <h1>Добро пожаловать!</h1>
+        <a href="/articles.php">Статьи</a>
+        <a href="pages/add_article.php" class="article-button">Articles</a>
     </main>
     <?php include 'includes/footer.php'; ?>
 </body>

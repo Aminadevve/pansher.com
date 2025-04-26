@@ -2,3 +2,18 @@ nav a.active {
     font-weight: bold;
     color: #f00;
 }
+.article-button {
+    display: inline-block;  /* Заставляет его вести себя как блочный элемент внутри текстового потока */
+    padding: 10px 20px;      /* Добавляет немного отступов вокруг текста */
+    background-color: #4CAF50; /* Хороший зеленый цвет */
+    color: white;            /* Белый текст */
+    text-decoration: none;   /* Убирает подчеркивание */
+    border-radius: 5px;       /* Закругляет углы */
+    font-size: 16px;          /* Делает текст немного больше */
+    border: none;           /* Убирает границу */
+    cursor: pointer;          /* Изменяет курсор на указатель при наведении */
+}
+
+.article-button:hover {
+    background-color: #3e8e41; /* Более темный зеленый при наведении */
+}
